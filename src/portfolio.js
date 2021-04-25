@@ -379,7 +379,7 @@ const experience = {
         },
         {
           title: "Electrical Engineer (intern)",
-          company: "Ebackoffice",
+          company: "Engineering Research Center",
           company_url:
             "https://www.engr.colostate.edu/ece/research/engineering_research_centers.php",
           logo_path: "ERC.png",
