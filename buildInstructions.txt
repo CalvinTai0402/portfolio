@@ -5,4 +5,4 @@ git add .
 git commit -m "deploy"
 git branch -M main
 git remote add origin git@github.com:CalvinTai0402/CalvinTai0402.github.io.git
-git push origin main -u
+git push origin main -f
