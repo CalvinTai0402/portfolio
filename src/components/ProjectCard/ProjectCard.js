@@ -10,6 +10,11 @@ export default function ProjectCard({ repo, theme }) {
     win.focus();
   }
 
+  function openDemoinNewTab(url) {
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+
   const styles = style({
     color: "rgb(88, 96, 105)",
     backgroundColor: "rgb(255, 255, 255)",
@@ -30,14 +35,22 @@ export default function ProjectCard({ repo, theme }) {
         <div
           {...styles}
           key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.projectCard }}
         >
-          <div className="repo-name-div">
+          <div
+            className="repo-name-div"
+            onClick={() => openRepoinNewTab(repo.url)}
+          >
             <p className="repo-name" style={{ color: theme.text }}>
               {repo.name}
             </p>
           </div>
+          <p
+            style={{ color: "white", marginTop: "8px", alignItems: "left" }}
+            onClick={() => openDemoinNewTab(repo.demoLink)}
+          >
+            Demo
+          </p>
           <p className="repo-description" style={{ color: theme.text }}>
             {repo.description}
           </p>

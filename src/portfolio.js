@@ -441,6 +441,7 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
       ],
+      demoLink: "https://drive.google.com/file/d/1uixi-KPdELRavpQCxd20zsfo4pOmgWKQ/view?usp=sharing"
     },
     {
       id: "1",
@@ -470,6 +471,7 @@ const projects = {
           iconifyClass: "logos-mongodb",
         },
       ],
+      demoLink: "https://whatsapp-6a677.web.app/"
     },
     {
       id: "2",
@@ -491,6 +493,7 @@ const projects = {
           iconifyClass: "logos-react",
         },
       ],
+      demoLink: "https://clone-f7d9a.web.app/"
     },
     {
       id: "3",
@@ -512,11 +515,12 @@ const projects = {
           iconifyClass: "logos-python",
         },
       ],
+      demoLink: "https://github.com/CalvinTai0402/ML_Projects"
     },
     {
       id: "4",
       name: "IOT-PI4 FACIAL RECOGNITION",
-      url: "https://github.com/CalvinTai0402",
+      url: "https://github.com/CalvinTai0402/IoTFaceRecognition",
       description:
         "Trained a facial detection and recognition model and embedded it in a Pi4. Pi4 alerts a remote PC when faces are recognized (socket programming).",
       languages: [
@@ -529,6 +533,21 @@ const projects = {
           iconifyClass: "logos-python",
         },
       ],
+      demoLink: "https://drive.google.com/file/d/1ipoup5ZLI0ttUOeMwVu4iGrMkLYHx5mJ/view?usp=sharing"
+    },
+    {
+      id: "5",
+      name: "BLUETOOTH-CONTROLLED TOY CAR",
+      url: "#/projects",
+      description:
+        "Built the electronics and mechnanics of the toy car using an Arduino and a 3D printer. Used MIT app inventor to create the app.",
+      languages: [
+        {
+          name: "Java",
+          iconifyClass: "logos-java",
+        },
+      ],
+      demoLink: "https://drive.google.com/file/d/1ijTogYzTIWQKPMTu4jehr1gYuAY4BJ-_/view?usp=sharing"
     },
   ],
 };
