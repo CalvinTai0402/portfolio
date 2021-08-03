@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "An aspiring software engineer & deep learning enthusiast 🔥. I am also a motivator, leader and a table tennis athlete",
   resumeLink:
-    "https://drive.google.com/file/d/160UclJjPXfTcYF16EEVgX0UJk8nq_h6-/view?usp=sharing",
+    "https://drive.google.com/file/d/1bs0Hj2q6mFHN35AWUy9QkEDxV1Xu7tB1/view?usp=sharing",
   mail: "mailto:jfctai@rams.colostate.edu",
 };
 
@@ -338,12 +338,23 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed two internship and took two part-time techinal jobs during the semester. I've also done numerous technical projects in my own time.",
+    "I've completed three internship and took two part-time techinal jobs during the semester. I've also done numerous technical projects in my own time.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
+        {
+          title: " Software Engineer (intern)",
+          company: "Hewlett-Packard Enterprise",
+          company_url: "https://www.hpe.com/us/en/home.html",
+          logo_path: "HPE.png",
+          duration: "June 2021 - Aug 2021",
+          location: "Work From Home | Fort Collins",
+          description:
+            "I created a React UI to interact with a Django backend which creates a Java microservice template for the EclipseIDE. I also dockerized the application and used Jenkins for CI/CD. I also worked on providing data visualization for KONG (API gateway) using Grafana and Zipkin.",
+          color: "#ee3c26",
+        },
         {
           title: "Software Developer (volunteer)",
           company: "Ebackoffice",
@@ -352,8 +363,8 @@ const experience = {
           duration: "Feb 2021 - Present",
           location: "Work From Home | Fort Collins",
           description:
-            "I wrote a GUI program that automates the bookkeeping process by generating IIF and PDF files via webscraping using Python3 Selenium. This saves Ebackoffice 80 percent of their cost every month.",
-          color: "#0071C5",
+            "I wrote a GUI program that automates the bookkeeping process by generating IIF, CSV and PDF files via webscraping using Python3 Selenium for multiple websties. This saves Ebackoffice 80 percent of their cost every month. I also developed a fully-fledged, full-stack admin panel using Laravel and ReactJS",
+          color: "#ee3c26",
         },
         {
           title: "Software Engineer (contractor)",
@@ -387,7 +398,7 @@ const experience = {
           location: "Office | Fort Collins",
           description:
             "I assembled an A/D Faraday’s box(high frequency filtering) to rectify misalignment of lasers via servo positioning. I composed a GUI program connected to Basler pylon cameras in Matlab, C++, Qt creator.",
-          color: "#0071C5",
+          color: "#ee3c26",
         },
       ],
     },
@@ -441,7 +452,8 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
       ],
-      demoLink: "https://drive.google.com/file/d/1uixi-KPdELRavpQCxd20zsfo4pOmgWKQ/view?usp=sharing"
+      demoLink:
+        "https://drive.google.com/file/d/1uixi-KPdELRavpQCxd20zsfo4pOmgWKQ/view?usp=sharing",
     },
     {
       id: "1",
@@ -471,7 +483,7 @@ const projects = {
           iconifyClass: "logos-mongodb",
         },
       ],
-      demoLink: "https://whatsapp-6a677.web.app/"
+      demoLink: "https://whatsapp-6a677.web.app/",
     },
     {
       id: "2",
@@ -493,7 +505,7 @@ const projects = {
           iconifyClass: "logos-react",
         },
       ],
-      demoLink: "https://clone-f7d9a.web.app/"
+      demoLink: "https://clone-f7d9a.web.app/",
     },
     {
       id: "3",
@@ -515,7 +527,7 @@ const projects = {
           iconifyClass: "logos-python",
         },
       ],
-      demoLink: "https://github.com/CalvinTai0402/ML_Projects"
+      demoLink: "https://github.com/CalvinTai0402/ML_Projects",
     },
     {
       id: "4",
@@ -533,7 +545,8 @@ const projects = {
           iconifyClass: "logos-python",
         },
       ],
-      demoLink: "https://drive.google.com/file/d/1ipoup5ZLI0ttUOeMwVu4iGrMkLYHx5mJ/view?usp=sharing"
+      demoLink:
+        "https://drive.google.com/file/d/1ipoup5ZLI0ttUOeMwVu4iGrMkLYHx5mJ/view?usp=sharing",
     },
     {
       id: "5",
@@ -547,7 +560,8 @@ const projects = {
           iconifyClass: "logos-java",
         },
       ],
-      demoLink: "https://drive.google.com/file/d/1ijTogYzTIWQKPMTu4jehr1gYuAY4BJ-_/view?usp=sharing"
+      demoLink:
+        "https://drive.google.com/file/d/1ijTogYzTIWQKPMTu4jehr1gYuAY4BJ-_/view?usp=sharing",
     },
   ],
 };
